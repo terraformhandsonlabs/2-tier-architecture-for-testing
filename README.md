@@ -11,7 +11,7 @@ Must Contain
 infra/
 ├── 00-versions.tf        # Terraform + provider versions
 ├── 01-provider.tf        # AWS provider
-├── 02-locals.tf          # AZ selection
+├── 02-locals.tf          # AZ selections
 ├── 03-vpc.tf             # VPC + Internet Gateway
 ├── 04-subnets.tf         # Public & Private subnets
 ├── 05-routes.tf          # Route tables & associations
